@@ -17,7 +17,7 @@ result:
 ### 2、客户端查询排行榜
 ```python
 url：rankapi/rank
-method: POST
+method: GET
 param：
     client："客户端1"  //客户端号，必填
     start：  1        //排名开始名次， 可缺省， 默认为1
